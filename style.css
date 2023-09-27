@@ -212,17 +212,27 @@ nav {
     display: flex;
     text-align: left;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 100px;
+    border: 1000px;
+    border-color: aqua;
 }
 
 .contributer1{
     border-radius: 10px;
+    border: 1px solid rgb(196, 192, 185) ;
+    
     /* border-color: aqua; */
-    background-color: aqua;
+    /* background-color: aqua; */
+
 }
 
 .contributer1 p{
     width: 350px;
-    text-align: left;
+    text-align: left;    
+}
+
+.contributer .contributer1 img {
+    border-radius: 50%;   
 }
