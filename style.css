@@ -1,0 +1,228 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    /* background-image: image-set(); */
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 10px;
+    background-image: url(./image/first_div_back_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+
+.options {
+    margin: 30px;
+    /* padding-left: 80%; */
+}
+
+.options>a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    /* padding-left: 100%; */
+
+}
+
+.options>a:hover {
+    /* padding: 10px; */
+    /* border: 1px solid white; */
+    border-radius: 4px;
+}
+
+.my_details {
+    text-align: center;
+    margin-top: 100px;
+    margin: 400px;
+    color: white;
+}
+
+.my_details .photo img {
+    border-radius: 50%;
+}
+
+.Second {
+    align-items: center;
+    text-align: center;
+    margin-top: 75px;
+    /* margin-bottom: 80px; */
+    width: 100%;
+    height: 170px;
+    flex: content;
+    /* background-color: aquamarine; */
+}
+
+.Second p {
+    text-align: center;
+    width: 50%;
+    margin-left: 380px;
+    /* margin-right: 100px;  */
+}
+.specific{
+    /* padding-top: 500px; */
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+
+}
+
+.specific .vattuwa {
+    width: 300px;
+    height: 5px;
+    background-color: darkgray;
+    position: relative;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.specific .vattuwa .specific-content {
+    width: 250px;
+    height: 5px;
+    background-color: aqua;
+    position: absolute;
+}
+
+.specific {
+    text-decoration: double;
+    flex: content;
+    /* margin-top: 20px; */
+}
+
+.Third {
+    background-image: url(./image/third_div_back_img.jpg);
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    color: white;
+    position: relative;
+    /* margin-top: 100px; */
+}
+
+.hire {
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    margin-left: 400px ;
+    /* padding: 125px; */
+}
+
+.hire > h1{
+    margin-top: 100px;
+    padding-top: 75px;
+}
+.Third .hire p {
+    width: 600px;
+    margin: auto;
+}
+
+.fourth {
+    width: 100%;
+    height: 90vh;
+    margin-bottom: 50px;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* background-color: aqua; */
+}
+
+.content4 {
+    padding: 80px;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+
+.content4 p {
+    text-align: center;
+    width: 35%;
+    margin-left: 380px;
+    /* margin-right: 100px;  */
+}
+
+.img_row_one{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-left: 275px;
+    margin-right: 275px;
+}
+
+.fifth {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/foruth_div_img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    /* padding-right: 300px;
+    padding-left: 300px; */
+    padding-top: 50px;
+    color: white;
+}
+
+.exp4{
+    padding-left: 280px;
+    padding-right: 10px;
+}
+.edu4{
+    padding-left: 10px ;
+    padding-right: 280px;
+}
+
+.sixth{
+    width: 100%;
+    height: 80vh;
+    /* background-color: brown; */
+    padding-bottom: 200px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 100px;
+}
+
+.sixth p{
+    width: 500px;
+    text-align: center;
+}
+
+#P{
+    margin-left: 420px;
+}
+
+.contributer{    
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.contributer1{
+    border-radius: 10px;
+    /* border-color: aqua; */
+    background-color: aqua;
+}
+
+.contributer1 p{
+    width: 350px;
+    text-align: left;
+}
